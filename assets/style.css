@@ -11,7 +11,7 @@ body {
 
 /* apply styles to <header> */
 header {
-	padding: 20px 35px;
+	padding: 20px 36px;
 	background-color: #39a6b2;
 }
 
@@ -41,4 +41,20 @@ header nav ul li a {
 	margin: 0 30px;
 	font-weight: lighter;
 	font-size: 22px;
+}
+
+footer {
+	background: #fce138;
+	width: 100%;
+	padding: 40px 35px;
+}
+
+footer div {
+	float: right;
+	line-height: 1.5;
+	text-align: right;
+}
+
+footer a {
+	color: #024e76;
 }
