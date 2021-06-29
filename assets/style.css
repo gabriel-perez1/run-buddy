@@ -143,3 +143,22 @@ section {
   font-size: 20px;
   margin: 0 auto;
 }
+
+.trainers {
+	text-align: center;
+	width: 900px;
+  	margin: 0 auto 30px auto;
+  	background: #024e76;
+  	color: #fce138;
+}
+
+.trainer img {
+	width: 35%;
+	float: left;
+  }
+  
+  .trainer-bio {
+	padding: 35px;
+	float: left;
+	width: 65%;
+  }
