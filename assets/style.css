@@ -7,6 +7,7 @@
 body {
 	color: #39a6b2;
 	font-family: Helvetica, Arial, sans-serif;
+	size: 100%;
 }
 
 /* apply styles to <header> */
@@ -16,6 +17,14 @@ header {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-image: url("./images/hero-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-position: 80%; 
 }
 
 header h1 {
@@ -78,7 +87,7 @@ section {
 	padding: 60px;
 }
 
-/* Hero Style Start */
+/* Hero Style Start*/
 .hero {
 	background-image: url('./images/hero-bg.jpg');
 	background-size: cover;
@@ -86,6 +95,8 @@ section {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap; 
+	background-attachment: fixed;
+	background-position: 80%;
 }
 
 .hero-cta {
@@ -346,6 +357,7 @@ section {
 	header {
 		padding-bottom: 0;
 		justify-content: center;
+		position: relative;
 	}
 
 	header h1 {
